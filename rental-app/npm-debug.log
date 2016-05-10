@@ -1,0 +1,899 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@2.9.1
+3 info using node@v0.12.3
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose readDependencies loading dependencies from E:\Rental-app\rental-app\package.json
+6 warn package.json @ No repository field.
+7 verbose install where, deps [ 'E:\\Rental-app\\rental-app',
+7 verbose install   [ 'angular2',
+7 verbose install     'es6-shim',
+7 verbose install     'ionic-angular',
+7 verbose install     'ionic-native',
+7 verbose install     'ionicons',
+7 verbose install     'rxjs',
+7 verbose install     'del',
+7 verbose install     'gulp',
+7 verbose install     'gulp-watch',
+7 verbose install     'ionic-gulp-browserify-typescript',
+7 verbose install     'ionic-gulp-fonts-copy',
+7 verbose install     'ionic-gulp-html-copy',
+7 verbose install     'ionic-gulp-sass-build',
+7 verbose install     'ionic-gulp-scripts-copy',
+7 verbose install     'run-sequence' ] ]
+8 verbose install where, peers [ 'E:\\Rental-app\\rental-app', [] ]
+9 verbose installManyTop reading for lifecycle E:\Rental-app\rental-app\package.json
+10 info preinstall @
+11 verbose readDependencies loading dependencies from E:\Rental-app\rental-app\package.json
+12 silly cache add args [ 'ionic-angular@2.0.0-beta.6', null ]
+13 verbose cache add spec ionic-angular@2.0.0-beta.6
+14 silly cache add parsed spec { raw: 'ionic-angular@2.0.0-beta.6',
+14 silly cache add   scope: null,
+14 silly cache add   name: 'ionic-angular',
+14 silly cache add   rawSpec: '2.0.0-beta.6',
+14 silly cache add   spec: '2.0.0-beta.6',
+14 silly cache add   type: 'version' }
+15 silly addNamed ionic-angular@2.0.0-beta.6
+16 verbose addNamed "2.0.0-beta.6" is a plain semver version for ionic-angular
+17 silly mapToRegistry name ionic-angular
+18 silly mapToRegistry using default registry
+19 silly mapToRegistry registry https://registry.npmjs.org/
+20 silly mapToRegistry uri https://registry.npmjs.org/ionic-angular
+21 verbose addNameVersion registry:https://registry.npmjs.org/ionic-angular not in flight; fetching
+22 silly cache add args [ 'ionic-native@^1.1.0', null ]
+23 verbose cache add spec ionic-native@^1.1.0
+24 silly cache add parsed spec { raw: 'ionic-native@^1.1.0',
+24 silly cache add   scope: null,
+24 silly cache add   name: 'ionic-native',
+24 silly cache add   rawSpec: '^1.1.0',
+24 silly cache add   spec: '>=1.1.0 <2.0.0',
+24 silly cache add   type: 'range' }
+25 silly addNamed ionic-native@>=1.1.0 <2.0.0
+26 verbose addNamed ">=1.1.0 <2.0.0" is a valid semver range for ionic-native
+27 silly addNameRange { name: 'ionic-native', range: '>=1.1.0 <2.0.0', hasData: false }
+28 silly mapToRegistry name ionic-native
+29 silly mapToRegistry using default registry
+30 silly mapToRegistry registry https://registry.npmjs.org/
+31 silly mapToRegistry uri https://registry.npmjs.org/ionic-native
+32 verbose addNameRange registry:https://registry.npmjs.org/ionic-native not in flight; fetching
+33 silly cache add args [ 'ionicons@3.0.0', null ]
+34 verbose cache add spec ionicons@3.0.0
+35 silly cache add parsed spec { raw: 'ionicons@3.0.0',
+35 silly cache add   scope: null,
+35 silly cache add   name: 'ionicons',
+35 silly cache add   rawSpec: '3.0.0',
+35 silly cache add   spec: '3.0.0',
+35 silly cache add   type: 'version' }
+36 silly addNamed ionicons@3.0.0
+37 verbose addNamed "3.0.0" is a plain semver version for ionicons
+38 silly mapToRegistry name ionicons
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry uri https://registry.npmjs.org/ionicons
+42 verbose addNameVersion registry:https://registry.npmjs.org/ionicons not in flight; fetching
+43 silly cache add args [ 'rxjs@5.0.0-beta.2', null ]
+44 verbose cache add spec rxjs@5.0.0-beta.2
+45 silly cache add parsed spec { raw: 'rxjs@5.0.0-beta.2',
+45 silly cache add   scope: null,
+45 silly cache add   name: 'rxjs',
+45 silly cache add   rawSpec: '5.0.0-beta.2',
+45 silly cache add   spec: '5.0.0-beta.2',
+45 silly cache add   type: 'version' }
+46 silly addNamed rxjs@5.0.0-beta.2
+47 verbose addNamed "5.0.0-beta.2" is a plain semver version for rxjs
+48 silly mapToRegistry name rxjs
+49 silly mapToRegistry using default registry
+50 silly mapToRegistry registry https://registry.npmjs.org/
+51 silly mapToRegistry uri https://registry.npmjs.org/rxjs
+52 verbose addNameVersion registry:https://registry.npmjs.org/rxjs not in flight; fetching
+53 silly cache add args [ 'del@2.2.0', null ]
+54 verbose cache add spec del@2.2.0
+55 silly cache add parsed spec { raw: 'del@2.2.0',
+55 silly cache add   scope: null,
+55 silly cache add   name: 'del',
+55 silly cache add   rawSpec: '2.2.0',
+55 silly cache add   spec: '2.2.0',
+55 silly cache add   type: 'version' }
+56 silly addNamed del@2.2.0
+57 verbose addNamed "2.2.0" is a plain semver version for del
+58 silly mapToRegistry name del
+59 silly mapToRegistry using default registry
+60 silly mapToRegistry registry https://registry.npmjs.org/
+61 silly mapToRegistry uri https://registry.npmjs.org/del
+62 verbose addNameVersion registry:https://registry.npmjs.org/del not in flight; fetching
+63 silly cache add args [ 'gulp@3.9.1', null ]
+64 verbose cache add spec gulp@3.9.1
+65 silly cache add parsed spec { raw: 'gulp@3.9.1',
+65 silly cache add   scope: null,
+65 silly cache add   name: 'gulp',
+65 silly cache add   rawSpec: '3.9.1',
+65 silly cache add   spec: '3.9.1',
+65 silly cache add   type: 'version' }
+66 silly addNamed gulp@3.9.1
+67 verbose addNamed "3.9.1" is a plain semver version for gulp
+68 silly mapToRegistry name gulp
+69 silly mapToRegistry using default registry
+70 silly mapToRegistry registry https://registry.npmjs.org/
+71 silly mapToRegistry uri https://registry.npmjs.org/gulp
+72 verbose addNameVersion registry:https://registry.npmjs.org/gulp not in flight; fetching
+73 silly cache add args [ 'gulp-watch@4.3.5', null ]
+74 verbose cache add spec gulp-watch@4.3.5
+75 silly cache add parsed spec { raw: 'gulp-watch@4.3.5',
+75 silly cache add   scope: null,
+75 silly cache add   name: 'gulp-watch',
+75 silly cache add   rawSpec: '4.3.5',
+75 silly cache add   spec: '4.3.5',
+75 silly cache add   type: 'version' }
+76 silly addNamed gulp-watch@4.3.5
+77 verbose addNamed "4.3.5" is a plain semver version for gulp-watch
+78 silly mapToRegistry name gulp-watch
+79 silly mapToRegistry using default registry
+80 silly mapToRegistry registry https://registry.npmjs.org/
+81 silly mapToRegistry uri https://registry.npmjs.org/gulp-watch
+82 verbose addNameVersion registry:https://registry.npmjs.org/gulp-watch not in flight; fetching
+83 silly cache add args [ 'ionic-gulp-browserify-typescript@^1.1.0', null ]
+84 verbose cache add spec ionic-gulp-browserify-typescript@^1.1.0
+85 silly cache add parsed spec { raw: 'ionic-gulp-browserify-typescript@^1.1.0',
+85 silly cache add   scope: null,
+85 silly cache add   name: 'ionic-gulp-browserify-typescript',
+85 silly cache add   rawSpec: '^1.1.0',
+85 silly cache add   spec: '>=1.1.0 <2.0.0',
+85 silly cache add   type: 'range' }
+86 silly addNamed ionic-gulp-browserify-typescript@>=1.1.0 <2.0.0
+87 verbose addNamed ">=1.1.0 <2.0.0" is a valid semver range for ionic-gulp-browserify-typescript
+88 silly addNameRange { name: 'ionic-gulp-browserify-typescript',
+88 silly addNameRange   range: '>=1.1.0 <2.0.0',
+88 silly addNameRange   hasData: false }
+89 silly mapToRegistry name ionic-gulp-browserify-typescript
+90 silly mapToRegistry using default registry
+91 silly mapToRegistry registry https://registry.npmjs.org/
+92 silly mapToRegistry uri https://registry.npmjs.org/ionic-gulp-browserify-typescript
+93 verbose addNameRange registry:https://registry.npmjs.org/ionic-gulp-browserify-typescript not in flight; fetching
+94 silly cache add args [ 'ionic-gulp-fonts-copy@^1.0.0', null ]
+95 verbose cache add spec ionic-gulp-fonts-copy@^1.0.0
+96 silly cache add parsed spec { raw: 'ionic-gulp-fonts-copy@^1.0.0',
+96 silly cache add   scope: null,
+96 silly cache add   name: 'ionic-gulp-fonts-copy',
+96 silly cache add   rawSpec: '^1.0.0',
+96 silly cache add   spec: '>=1.0.0 <2.0.0',
+96 silly cache add   type: 'range' }
+97 silly addNamed ionic-gulp-fonts-copy@>=1.0.0 <2.0.0
+98 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for ionic-gulp-fonts-copy
+99 silly addNameRange { name: 'ionic-gulp-fonts-copy',
+99 silly addNameRange   range: '>=1.0.0 <2.0.0',
+99 silly addNameRange   hasData: false }
+100 silly mapToRegistry name ionic-gulp-fonts-copy
+101 silly mapToRegistry using default registry
+102 silly mapToRegistry registry https://registry.npmjs.org/
+103 silly mapToRegistry uri https://registry.npmjs.org/ionic-gulp-fonts-copy
+104 verbose addNameRange registry:https://registry.npmjs.org/ionic-gulp-fonts-copy not in flight; fetching
+105 silly cache add args [ 'ionic-gulp-html-copy@^1.0.0', null ]
+106 verbose cache add spec ionic-gulp-html-copy@^1.0.0
+107 silly cache add parsed spec { raw: 'ionic-gulp-html-copy@^1.0.0',
+107 silly cache add   scope: null,
+107 silly cache add   name: 'ionic-gulp-html-copy',
+107 silly cache add   rawSpec: '^1.0.0',
+107 silly cache add   spec: '>=1.0.0 <2.0.0',
+107 silly cache add   type: 'range' }
+108 silly addNamed ionic-gulp-html-copy@>=1.0.0 <2.0.0
+109 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for ionic-gulp-html-copy
+110 silly addNameRange { name: 'ionic-gulp-html-copy',
+110 silly addNameRange   range: '>=1.0.0 <2.0.0',
+110 silly addNameRange   hasData: false }
+111 silly mapToRegistry name ionic-gulp-html-copy
+112 silly mapToRegistry using default registry
+113 silly mapToRegistry registry https://registry.npmjs.org/
+114 silly mapToRegistry uri https://registry.npmjs.org/ionic-gulp-html-copy
+115 verbose addNameRange registry:https://registry.npmjs.org/ionic-gulp-html-copy not in flight; fetching
+116 silly cache add args [ 'ionic-gulp-sass-build@^1.0.0', null ]
+117 verbose cache add spec ionic-gulp-sass-build@^1.0.0
+118 silly cache add parsed spec { raw: 'ionic-gulp-sass-build@^1.0.0',
+118 silly cache add   scope: null,
+118 silly cache add   name: 'ionic-gulp-sass-build',
+118 silly cache add   rawSpec: '^1.0.0',
+118 silly cache add   spec: '>=1.0.0 <2.0.0',
+118 silly cache add   type: 'range' }
+119 silly addNamed ionic-gulp-sass-build@>=1.0.0 <2.0.0
+120 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for ionic-gulp-sass-build
+121 silly addNameRange { name: 'ionic-gulp-sass-build',
+121 silly addNameRange   range: '>=1.0.0 <2.0.0',
+121 silly addNameRange   hasData: false }
+122 silly mapToRegistry name ionic-gulp-sass-build
+123 silly mapToRegistry using default registry
+124 silly mapToRegistry registry https://registry.npmjs.org/
+125 silly mapToRegistry uri https://registry.npmjs.org/ionic-gulp-sass-build
+126 verbose addNameRange registry:https://registry.npmjs.org/ionic-gulp-sass-build not in flight; fetching
+127 silly cache add args [ 'ionic-gulp-scripts-copy@^1.0.1', null ]
+128 verbose cache add spec ionic-gulp-scripts-copy@^1.0.1
+129 silly cache add parsed spec { raw: 'ionic-gulp-scripts-copy@^1.0.1',
+129 silly cache add   scope: null,
+129 silly cache add   name: 'ionic-gulp-scripts-copy',
+129 silly cache add   rawSpec: '^1.0.1',
+129 silly cache add   spec: '>=1.0.1 <2.0.0',
+129 silly cache add   type: 'range' }
+130 silly addNamed ionic-gulp-scripts-copy@>=1.0.1 <2.0.0
+131 verbose addNamed ">=1.0.1 <2.0.0" is a valid semver range for ionic-gulp-scripts-copy
+132 silly addNameRange { name: 'ionic-gulp-scripts-copy',
+132 silly addNameRange   range: '>=1.0.1 <2.0.0',
+132 silly addNameRange   hasData: false }
+133 silly mapToRegistry name ionic-gulp-scripts-copy
+134 silly mapToRegistry using default registry
+135 silly mapToRegistry registry https://registry.npmjs.org/
+136 silly mapToRegistry uri https://registry.npmjs.org/ionic-gulp-scripts-copy
+137 verbose addNameRange registry:https://registry.npmjs.org/ionic-gulp-scripts-copy not in flight; fetching
+138 silly cache add args [ 'run-sequence@1.1.5', null ]
+139 verbose cache add spec run-sequence@1.1.5
+140 silly cache add parsed spec { raw: 'run-sequence@1.1.5',
+140 silly cache add   scope: null,
+140 silly cache add   name: 'run-sequence',
+140 silly cache add   rawSpec: '1.1.5',
+140 silly cache add   spec: '1.1.5',
+140 silly cache add   type: 'version' }
+141 silly addNamed run-sequence@1.1.5
+142 verbose addNamed "1.1.5" is a plain semver version for run-sequence
+143 silly mapToRegistry name run-sequence
+144 silly mapToRegistry using default registry
+145 silly mapToRegistry registry https://registry.npmjs.org/
+146 silly mapToRegistry uri https://registry.npmjs.org/run-sequence
+147 verbose addNameVersion registry:https://registry.npmjs.org/run-sequence not in flight; fetching
+148 silly cache add args [ 'angular2@2.0.0-beta.15', null ]
+149 verbose cache add spec angular2@2.0.0-beta.15
+150 silly cache add parsed spec { raw: 'angular2@2.0.0-beta.15',
+150 silly cache add   scope: null,
+150 silly cache add   name: 'angular2',
+150 silly cache add   rawSpec: '2.0.0-beta.15',
+150 silly cache add   spec: '2.0.0-beta.15',
+150 silly cache add   type: 'version' }
+151 silly addNamed angular2@2.0.0-beta.15
+152 verbose addNamed "2.0.0-beta.15" is a plain semver version for angular2
+153 silly mapToRegistry name angular2
+154 silly mapToRegistry using default registry
+155 silly mapToRegistry registry https://registry.npmjs.org/
+156 silly mapToRegistry uri https://registry.npmjs.org/angular2
+157 verbose addNameVersion registry:https://registry.npmjs.org/angular2 not in flight; fetching
+158 silly cache add args [ 'es6-shim@^0.35.0', null ]
+159 verbose cache add spec es6-shim@^0.35.0
+160 silly cache add parsed spec { raw: 'es6-shim@^0.35.0',
+160 silly cache add   scope: null,
+160 silly cache add   name: 'es6-shim',
+160 silly cache add   rawSpec: '^0.35.0',
+160 silly cache add   spec: '>=0.35.0 <0.36.0',
+160 silly cache add   type: 'range' }
+161 silly addNamed es6-shim@>=0.35.0 <0.36.0
+162 verbose addNamed ">=0.35.0 <0.36.0" is a valid semver range for es6-shim
+163 silly addNameRange { name: 'es6-shim', range: '>=0.35.0 <0.36.0', hasData: false }
+164 silly mapToRegistry name es6-shim
+165 silly mapToRegistry using default registry
+166 silly mapToRegistry registry https://registry.npmjs.org/
+167 silly mapToRegistry uri https://registry.npmjs.org/es6-shim
+168 verbose addNameRange registry:https://registry.npmjs.org/es6-shim not in flight; fetching
+169 verbose request uri https://registry.npmjs.org/ionic-native
+170 verbose request no auth needed
+171 info attempt registry request try #1 at 11:29:31 AM
+172 verbose request id 3970b54802531044
+173 verbose etag "2PGB000TGVD5W4IH5XDVL7QQ9"
+174 http request GET https://registry.npmjs.org/ionic-native
+175 verbose request uri https://registry.npmjs.org/ionic-angular
+176 verbose request no auth needed
+177 info attempt registry request try #1 at 11:29:31 AM
+178 verbose etag "5ZB5GQXUY1F80CVDI7Z5LUNW5"
+179 http request GET https://registry.npmjs.org/ionic-angular
+180 verbose request uri https://registry.npmjs.org/gulp
+181 verbose request no auth needed
+182 info attempt registry request try #1 at 11:29:31 AM
+183 verbose etag "DMB4OWH9XX9D6GTUC3GFP6LUL"
+184 http request GET https://registry.npmjs.org/gulp
+185 verbose request uri https://registry.npmjs.org/ionicons
+186 verbose request no auth needed
+187 info attempt registry request try #1 at 11:29:31 AM
+188 verbose etag "8XYCP35LMGXQHQKENY28QQ6LY"
+189 http request GET https://registry.npmjs.org/ionicons
+190 verbose request uri https://registry.npmjs.org/ionic-gulp-browserify-typescript
+191 verbose request no auth needed
+192 info attempt registry request try #1 at 11:29:31 AM
+193 verbose etag "BK3A33NYD3OF6I014N81XEFOZ"
+194 http request GET https://registry.npmjs.org/ionic-gulp-browserify-typescript
+195 verbose request uri https://registry.npmjs.org/del
+196 verbose request no auth needed
+197 info attempt registry request try #1 at 11:29:31 AM
+198 verbose etag "TJUTUOY36QF93714L26JV7X8"
+199 http request GET https://registry.npmjs.org/del
+200 verbose request uri https://registry.npmjs.org/ionic-gulp-fonts-copy
+201 verbose request no auth needed
+202 info attempt registry request try #1 at 11:29:31 AM
+203 verbose etag "ALWHYJ0A3JQCI7YRJL202VDXG"
+204 http request GET https://registry.npmjs.org/ionic-gulp-fonts-copy
+205 verbose request uri https://registry.npmjs.org/ionic-gulp-html-copy
+206 verbose request no auth needed
+207 info attempt registry request try #1 at 11:29:31 AM
+208 verbose etag "81A0U7A06T3D9ZLICJ7PQJ1SU"
+209 http request GET https://registry.npmjs.org/ionic-gulp-html-copy
+210 verbose request uri https://registry.npmjs.org/run-sequence
+211 verbose request no auth needed
+212 info attempt registry request try #1 at 11:29:31 AM
+213 verbose etag "7SYY7S5I5J5IJTA1FTFRU0OCZ"
+214 http request GET https://registry.npmjs.org/run-sequence
+215 verbose request uri https://registry.npmjs.org/rxjs
+216 verbose request no auth needed
+217 info attempt registry request try #1 at 11:29:31 AM
+218 verbose etag "EZZPHQN2DIIO7GBIV38A3C3HX"
+219 http request GET https://registry.npmjs.org/rxjs
+220 verbose request uri https://registry.npmjs.org/ionic-gulp-sass-build
+221 verbose request no auth needed
+222 info attempt registry request try #1 at 11:29:31 AM
+223 verbose etag "950V84BTS6MO7KOZS6VLSKAEL"
+224 http request GET https://registry.npmjs.org/ionic-gulp-sass-build
+225 verbose request uri https://registry.npmjs.org/gulp-watch
+226 verbose request no auth needed
+227 info attempt registry request try #1 at 11:29:31 AM
+228 verbose etag "AHFABJDWRJIX9PTLPFHN2KNGY"
+229 http request GET https://registry.npmjs.org/gulp-watch
+230 verbose request uri https://registry.npmjs.org/ionic-gulp-scripts-copy
+231 verbose request no auth needed
+232 info attempt registry request try #1 at 11:29:31 AM
+233 verbose etag "P7R25DUK0JUXFVJBI9HMV3CX"
+234 http request GET https://registry.npmjs.org/ionic-gulp-scripts-copy
+235 verbose request uri https://registry.npmjs.org/es6-shim
+236 verbose request no auth needed
+237 info attempt registry request try #1 at 11:29:31 AM
+238 verbose etag "6052F3CIZHB52LSH70NJHR8IW"
+239 http request GET https://registry.npmjs.org/es6-shim
+240 verbose request uri https://registry.npmjs.org/angular2
+241 verbose request no auth needed
+242 info attempt registry request try #1 at 11:29:31 AM
+243 verbose etag "7GZH17GDDA13UL2L55PDMLY38"
+244 http request GET https://registry.npmjs.org/angular2
+245 http 304 https://registry.npmjs.org/ionic-gulp-html-copy
+246 silly get cb [ 304,
+246 silly get   { date: 'Tue, 10 May 2016 06:29:37 GMT',
+246 silly get     via: '1.1 varnish',
+246 silly get     'cache-control': 'max-age=300',
+246 silly get     etag: '"81A0U7A06T3D9ZLICJ7PQJ1SU"',
+246 silly get     age: '0',
+246 silly get     connection: 'keep-alive',
+246 silly get     'x-served-by': 'cache-lcy1130-LCY',
+246 silly get     'x-cache': 'MISS',
+246 silly get     'x-cache-hits': '0',
+246 silly get     'x-timer': 'S1462861777.357531,VS0,VE182',
+246 silly get     vary: 'Accept-Encoding' } ]
+247 verbose etag https://registry.npmjs.org/ionic-gulp-html-copy from cache
+248 verbose get saving ionic-gulp-html-copy to C:\Users\faizan\AppData\Roaming\npm-cache\registry.npmjs.org\ionic-gulp-html-copy\.cache.json
+249 http 304 https://registry.npmjs.org/ionic-gulp-sass-build
+250 silly get cb [ 304,
+250 silly get   { date: 'Tue, 10 May 2016 06:29:37 GMT',
+250 silly get     via: '1.1 varnish',
+250 silly get     'cache-control': 'max-age=300',
+250 silly get     etag: '"950V84BTS6MO7KOZS6VLSKAEL"',
+250 silly get     age: '0',
+250 silly get     connection: 'keep-alive',
+250 silly get     'x-served-by': 'cache-lcy1131-LCY',
+250 silly get     'x-cache': 'MISS',
+250 silly get     'x-cache-hits': '0',
+250 silly get     'x-timer': 'S1462861777.516347,VS0,VE190',
+250 silly get     vary: 'Accept-Encoding' } ]
+251 verbose etag https://registry.npmjs.org/ionic-gulp-sass-build from cache
+252 verbose get saving ionic-gulp-sass-build to C:\Users\faizan\AppData\Roaming\npm-cache\registry.npmjs.org\ionic-gulp-sass-build\.cache.json
+253 http 304 https://registry.npmjs.org/ionic-gulp-browserify-typescript
+254 silly get cb [ 304,
+254 silly get   { date: 'Tue, 10 May 2016 06:29:37 GMT',
+254 silly get     via: '1.1 varnish',
+254 silly get     'cache-control': 'max-age=300',
+254 silly get     etag: '"BK3A33NYD3OF6I014N81XEFOZ"',
+254 silly get     age: '0',
+254 silly get     connection: 'keep-alive',
+254 silly get     'x-served-by': 'cache-lcy1122-LCY',
+254 silly get     'x-cache': 'MISS',
+254 silly get     'x-cache-hits': '0',
+254 silly get     'x-timer': 'S1462861777.349245,VS0,VE705',
+254 silly get     vary: 'Accept-Encoding' } ]
+255 verbose etag https://registry.npmjs.org/ionic-gulp-browserify-typescript from cache
+256 verbose get saving ionic-gulp-browserify-typescript to C:\Users\faizan\AppData\Roaming\npm-cache\registry.npmjs.org\ionic-gulp-browserify-typescript\.cache.json
+257 http 304 https://registry.npmjs.org/ionic-gulp-fonts-copy
+258 silly get cb [ 304,
+258 silly get   { date: 'Tue, 10 May 2016 06:29:37 GMT',
+258 silly get     via: '1.1 varnish',
+258 silly get     'cache-control': 'max-age=300',
+258 silly get     etag: '"ALWHYJ0A3JQCI7YRJL202VDXG"',
+258 silly get     age: '0',
+258 silly get     connection: 'keep-alive',
+258 silly get     'x-served-by': 'cache-lcy1120-LCY',
+258 silly get     'x-cache': 'MISS',
+258 silly get     'x-cache-hits': '0',
+258 silly get     'x-timer': 'S1462861777.514196,VS0,VE727',
+258 silly get     vary: 'Accept-Encoding' } ]
+259 verbose etag https://registry.npmjs.org/ionic-gulp-fonts-copy from cache
+260 verbose get saving ionic-gulp-fonts-copy to C:\Users\faizan\AppData\Roaming\npm-cache\registry.npmjs.org\ionic-gulp-fonts-copy\.cache.json
+261 http 200 https://registry.npmjs.org/del
+262 silly get cb [ 200,
+262 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+262 silly get     etag: '"A0GC0XU0VY2FL4KQBKF5RB6MS"',
+262 silly get     'content-type': 'application/json',
+262 silly get     'content-encoding': 'gzip',
+262 silly get     'cache-control': 'max-age=300',
+262 silly get     'content-length': '4988',
+262 silly get     'accept-ranges': 'bytes',
+262 silly get     date: 'Tue, 10 May 2016 06:29:37 GMT',
+262 silly get     via: '1.1 varnish',
+262 silly get     age: '21',
+262 silly get     connection: 'keep-alive',
+262 silly get     'x-served-by': 'cache-lcy1123-LCY',
+262 silly get     'x-cache': 'HIT',
+262 silly get     'x-cache-hits': '49',
+262 silly get     'x-timer': 'S1462861777.367164,VS0,VE0',
+262 silly get     vary: 'Accept-Encoding' } ]
+263 verbose get saving del to C:\Users\faizan\AppData\Roaming\npm-cache\registry.npmjs.org\del\.cache.json
+264 silly addNameRange number 2 { name: 'ionic-gulp-sass-build',
+264 silly addNameRange   range: '>=1.0.0 <2.0.0',
+264 silly addNameRange   hasData: true }
+265 silly addNameRange versions [ 'ionic-gulp-sass-build', [ '1.0.0' ] ]
+266 silly addNamed ionic-gulp-sass-build@1.0.0
+267 verbose addNamed "1.0.0" is a plain semver version for ionic-gulp-sass-build
+268 silly addNameRange number 2 { name: 'ionic-gulp-html-copy',
+268 silly addNameRange   range: '>=1.0.0 <2.0.0',
+268 silly addNameRange   hasData: true }
+269 silly addNameRange versions [ 'ionic-gulp-html-copy', [ '1.0.0' ] ]
+270 silly addNamed ionic-gulp-html-copy@1.0.0
+271 verbose addNamed "1.0.0" is a plain semver version for ionic-gulp-html-copy
+272 silly addNameRange number 2 { name: 'ionic-gulp-browserify-typescript',
+272 silly addNameRange   range: '>=1.1.0 <2.0.0',
+272 silly addNameRange   hasData: true }
+273 silly addNameRange versions [ 'ionic-gulp-browserify-typescript',
+273 silly addNameRange   [ '1.0.0', '1.0.1', '1.1.0' ] ]
+274 silly addNamed ionic-gulp-browserify-typescript@1.1.0
+275 verbose addNamed "1.1.0" is a plain semver version for ionic-gulp-browserify-typescript
+276 silly mapToRegistry name del
+277 silly mapToRegistry using default registry
+278 silly mapToRegistry registry https://registry.npmjs.org/
+279 silly mapToRegistry uri https://registry.npmjs.org/del
+280 verbose addRemoteTarball https://registry.npmjs.org/del/-/del-2.2.0.tgz not in flight; adding
+281 verbose addRemoteTarball [ 'https://registry.npmjs.org/del/-/del-2.2.0.tgz',
+281 verbose addRemoteTarball   '9a50f04bf37325e283b4f44e985336c252456bd5' ]
+282 silly addNameRange number 2 { name: 'ionic-gulp-fonts-copy',
+282 silly addNameRange   range: '>=1.0.0 <2.0.0',
+282 silly addNameRange   hasData: true }
+283 silly addNameRange versions [ 'ionic-gulp-fonts-copy', [ '1.0.0' ] ]
+284 silly addNamed ionic-gulp-fonts-copy@1.0.0
+285 verbose addNamed "1.0.0" is a plain semver version for ionic-gulp-fonts-copy
+286 info retry fetch attempt 1 at 11:29:36 AM
+287 info attempt registry request try #1 at 11:29:36 AM
+288 http fetch GET https://registry.npmjs.org/del/-/del-2.2.0.tgz
+289 silly cache afterAdd ionic-gulp-sass-build@1.0.0
+290 verbose afterAdd C:\Users\faizan\AppData\Roaming\npm-cache\ionic-gulp-sass-build\1.0.0\package\package.json not in flight; writing
+291 silly cache afterAdd ionic-gulp-html-copy@1.0.0
+292 verbose afterAdd C:\Users\faizan\AppData\Roaming\npm-cache\ionic-gulp-html-copy\1.0.0\package\package.json not in flight; writing
+293 verbose afterAdd C:\Users\faizan\AppData\Roaming\npm-cache\ionic-gulp-sass-build\1.0.0\package\package.json written
+294 silly cache afterAdd ionic-gulp-browserify-typescript@1.1.0
+295 verbose afterAdd C:\Users\faizan\AppData\Roaming\npm-cache\ionic-gulp-browserify-typescript\1.1.0\package\package.json not in flight; writing
+296 verbose afterAdd C:\Users\faizan\AppData\Roaming\npm-cache\ionic-gulp-html-copy\1.0.0\package\package.json written
+297 verbose afterAdd C:\Users\faizan\AppData\Roaming\npm-cache\ionic-gulp-browserify-typescript\1.1.0\package\package.json written
+298 silly cache afterAdd ionic-gulp-fonts-copy@1.0.0
+299 verbose afterAdd C:\Users\faizan\AppData\Roaming\npm-cache\ionic-gulp-fonts-copy\1.0.0\package\package.json not in flight; writing
+300 verbose afterAdd C:\Users\faizan\AppData\Roaming\npm-cache\ionic-gulp-fonts-copy\1.0.0\package\package.json written
+301 http 304 https://registry.npmjs.org/ionic-angular
+302 silly get cb [ 304,
+302 silly get   { date: 'Tue, 10 May 2016 06:29:38 GMT',
+302 silly get     via: '1.1 varnish',
+302 silly get     'cache-control': 'max-age=300',
+302 silly get     etag: '"5ZB5GQXUY1F80CVDI7Z5LUNW5"',
+302 silly get     age: '0',
+302 silly get     connection: 'keep-alive',
+302 silly get     'x-served-by': 'cache-lcy1132-LCY',
+302 silly get     'x-cache': 'MISS',
+302 silly get     'x-cache-hits': '0',
+302 silly get     'x-timer': 'S1462861778.747741,VS0,VE350',
+302 silly get     vary: 'Accept-Encoding' } ]
+303 verbose etag https://registry.npmjs.org/ionic-angular from cache
+304 verbose get saving ionic-angular to C:\Users\faizan\AppData\Roaming\npm-cache\registry.npmjs.org\ionic-angular\.cache.json
+305 silly mapToRegistry name ionic-angular
+306 silly mapToRegistry using default registry
+307 silly mapToRegistry registry https://registry.npmjs.org/
+308 silly mapToRegistry uri https://registry.npmjs.org/ionic-angular
+309 verbose addRemoteTarball https://registry.npmjs.org/ionic-angular/-/ionic-angular-2.0.0-beta.6.tgz not in flight; adding
+310 verbose addRemoteTarball [ 'https://registry.npmjs.org/ionic-angular/-/ionic-angular-2.0.0-beta.6.tgz',
+310 verbose addRemoteTarball   'c3f2327a11f1131bee87345fd7941e0c3a24937e' ]
+311 info retry fetch attempt 1 at 11:29:37 AM
+312 info attempt registry request try #1 at 11:29:37 AM
+313 http fetch GET https://registry.npmjs.org/ionic-angular/-/ionic-angular-2.0.0-beta.6.tgz
+314 http 200 https://registry.npmjs.org/run-sequence
+315 silly get cb [ 200,
+315 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+315 silly get     etag: '"AIXHV51F0DL9KZ6OSNCBM33MD"',
+315 silly get     'content-type': 'application/json',
+315 silly get     'cache-control': 'max-age=300',
+315 silly get     'content-length': '26417',
+315 silly get     'accept-ranges': 'bytes',
+315 silly get     date: 'Tue, 10 May 2016 06:29:37 GMT',
+315 silly get     via: '1.1 varnish',
+315 silly get     age: '130',
+315 silly get     connection: 'keep-alive',
+315 silly get     'x-served-by': 'cache-lcy1135-LCY',
+315 silly get     'x-cache': 'HIT',
+315 silly get     'x-cache-hits': '4',
+315 silly get     'x-timer': 'S1462861777.516300,VS0,VE0',
+315 silly get     vary: 'Accept-Encoding' } ]
+316 verbose get saving run-sequence to C:\Users\faizan\AppData\Roaming\npm-cache\registry.npmjs.org\run-sequence\.cache.json
+317 http 304 https://registry.npmjs.org/ionicons
+318 silly get cb [ 304,
+318 silly get   { date: 'Tue, 10 May 2016 06:29:39 GMT',
+318 silly get     via: '1.1 varnish',
+318 silly get     'cache-control': 'max-age=300',
+318 silly get     etag: '"8XYCP35LMGXQHQKENY28QQ6LY"',
+318 silly get     age: '0',
+318 silly get     connection: 'keep-alive',
+318 silly get     'x-served-by': 'cache-lcy1132-LCY',
+318 silly get     'x-cache': 'MISS',
+318 silly get     'x-cache-hits': '0',
+318 silly get     'x-timer': 'S1462861779.287855,VS0,VE171',
+318 silly get     vary: 'Accept-Encoding' } ]
+319 verbose etag https://registry.npmjs.org/ionicons from cache
+320 verbose get saving ionicons to C:\Users\faizan\AppData\Roaming\npm-cache\registry.npmjs.org\ionicons\.cache.json
+321 http 304 https://registry.npmjs.org/ionic-gulp-scripts-copy
+322 silly get cb [ 304,
+322 silly get   { date: 'Tue, 10 May 2016 06:29:39 GMT',
+322 silly get     via: '1.1 varnish',
+322 silly get     'cache-control': 'max-age=300',
+322 silly get     etag: '"P7R25DUK0JUXFVJBI9HMV3CX"',
+322 silly get     age: '0',
+322 silly get     connection: 'keep-alive',
+322 silly get     'x-served-by': 'cache-lcy1130-LCY',
+322 silly get     'x-cache': 'MISS',
+322 silly get     'x-cache-hits': '0',
+322 silly get     'x-timer': 'S1462861779.288471,VS0,VE717',
+322 silly get     vary: 'Accept-Encoding' } ]
+323 verbose etag https://registry.npmjs.org/ionic-gulp-scripts-copy from cache
+324 verbose get saving ionic-gulp-scripts-copy to C:\Users\faizan\AppData\Roaming\npm-cache\registry.npmjs.org\ionic-gulp-scripts-copy\.cache.json
+325 silly mapToRegistry name run-sequence
+326 silly mapToRegistry using default registry
+327 silly mapToRegistry registry https://registry.npmjs.org/
+328 silly mapToRegistry uri https://registry.npmjs.org/run-sequence
+329 verbose addRemoteTarball https://registry.npmjs.org/run-sequence/-/run-sequence-1.1.5.tgz not in flight; adding
+330 verbose addRemoteTarball [ 'https://registry.npmjs.org/run-sequence/-/run-sequence-1.1.5.tgz',
+330 verbose addRemoteTarball   '556bd47eb47877349e36c9c582748897db7be4f7' ]
+331 info retry fetch attempt 1 at 11:29:38 AM
+332 info attempt registry request try #1 at 11:29:38 AM
+333 http fetch GET https://registry.npmjs.org/run-sequence/-/run-sequence-1.1.5.tgz
+334 silly mapToRegistry name ionicons
+335 silly mapToRegistry using default registry
+336 silly mapToRegistry registry https://registry.npmjs.org/
+337 silly mapToRegistry uri https://registry.npmjs.org/ionicons
+338 verbose addRemoteTarball https://registry.npmjs.org/ionicons/-/ionicons-3.0.0.tgz not in flight; adding
+339 verbose addRemoteTarball [ 'https://registry.npmjs.org/ionicons/-/ionicons-3.0.0.tgz',
+339 verbose addRemoteTarball   '40b8daf4fd7a31150bd002160f66496e22a98c3c' ]
+340 silly addNameRange number 2 { name: 'ionic-gulp-scripts-copy',
+340 silly addNameRange   range: '>=1.0.1 <2.0.0',
+340 silly addNameRange   hasData: true }
+341 silly addNameRange versions [ 'ionic-gulp-scripts-copy', [ '1.0.0', '1.0.1' ] ]
+342 silly addNamed ionic-gulp-scripts-copy@1.0.1
+343 verbose addNamed "1.0.1" is a plain semver version for ionic-gulp-scripts-copy
+344 info retry fetch attempt 1 at 11:29:38 AM
+345 info attempt registry request try #1 at 11:29:38 AM
+346 http fetch GET https://registry.npmjs.org/ionicons/-/ionicons-3.0.0.tgz
+347 silly cache afterAdd ionic-gulp-scripts-copy@1.0.1
+348 verbose afterAdd C:\Users\faizan\AppData\Roaming\npm-cache\ionic-gulp-scripts-copy\1.0.1\package\package.json not in flight; writing
+349 verbose afterAdd C:\Users\faizan\AppData\Roaming\npm-cache\ionic-gulp-scripts-copy\1.0.1\package\package.json written
+350 http 200 https://registry.npmjs.org/rxjs
+351 silly get cb [ 200,
+351 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+351 silly get     etag: '"72C516V0U1DNIOSVOZG7T38QH"',
+351 silly get     'content-type': 'application/json',
+351 silly get     'cache-control': 'max-age=300',
+351 silly get     'content-length': '54729',
+351 silly get     'accept-ranges': 'bytes',
+351 silly get     date: 'Tue, 10 May 2016 06:29:37 GMT',
+351 silly get     via: '1.1 varnish',
+351 silly get     age: '288',
+351 silly get     connection: 'keep-alive',
+351 silly get     'x-served-by': 'cache-lcy1133-LCY',
+351 silly get     'x-cache': 'HIT',
+351 silly get     'x-cache-hits': '1',
+351 silly get     'x-timer': 'S1462861777.516383,VS0,VE0',
+351 silly get     vary: 'Accept-Encoding' } ]
+352 verbose get saving rxjs to C:\Users\faizan\AppData\Roaming\npm-cache\registry.npmjs.org\rxjs\.cache.json
+353 http 200 https://registry.npmjs.org/ionic-native
+354 silly get cb [ 200,
+354 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+354 silly get     etag: '"8Y9JWXIW90CG8H838JHEI34B9"',
+354 silly get     'content-type': 'application/json',
+354 silly get     'cache-control': 'max-age=300',
+354 silly get     'content-length': '18710',
+354 silly get     'accept-ranges': 'bytes',
+354 silly get     date: 'Tue, 10 May 2016 06:29:40 GMT',
+354 silly get     via: '1.1 varnish',
+354 silly get     age: '0',
+354 silly get     connection: 'keep-alive',
+354 silly get     'x-served-by': 'cache-lcy1131-LCY',
+354 silly get     'x-cache': 'MISS',
+354 silly get     'x-cache-hits': '0',
+354 silly get     'x-timer': 'S1462861779.287713,VS0,VE721',
+354 silly get     vary: 'Accept-Encoding' } ]
+355 verbose get saving ionic-native to C:\Users\faizan\AppData\Roaming\npm-cache\registry.npmjs.org\ionic-native\.cache.json
+356 silly addNameRange number 2 { name: 'ionic-native', range: '>=1.1.0 <2.0.0', hasData: true }
+357 silly addNameRange versions [ 'ionic-native',
+357 silly addNameRange   [ '1.0.7',
+357 silly addNameRange     '1.0.8',
+357 silly addNameRange     '1.0.9',
+357 silly addNameRange     '1.0.10',
+357 silly addNameRange     '1.0.11',
+357 silly addNameRange     '1.0.12',
+357 silly addNameRange     '1.1.0',
+357 silly addNameRange     '1.1.1',
+357 silly addNameRange     '1.2.0' ] ]
+358 silly addNamed ionic-native@1.2.0
+359 verbose addNamed "1.2.0" is a plain semver version for ionic-native
+360 silly mapToRegistry name ionic-native
+361 silly mapToRegistry using default registry
+362 silly mapToRegistry registry https://registry.npmjs.org/
+363 silly mapToRegistry uri https://registry.npmjs.org/ionic-native
+364 verbose addRemoteTarball https://registry.npmjs.org/ionic-native/-/ionic-native-1.2.0.tgz not in flight; adding
+365 verbose addRemoteTarball [ 'https://registry.npmjs.org/ionic-native/-/ionic-native-1.2.0.tgz',
+365 verbose addRemoteTarball   '3d01c8ebe530a559533adef59e08e17c7311affd' ]
+366 info retry fetch attempt 1 at 11:29:39 AM
+367 info attempt registry request try #1 at 11:29:39 AM
+368 http fetch GET https://registry.npmjs.org/ionic-native/-/ionic-native-1.2.0.tgz
+369 silly mapToRegistry name rxjs
+370 silly mapToRegistry using default registry
+371 silly mapToRegistry registry https://registry.npmjs.org/
+372 silly mapToRegistry uri https://registry.npmjs.org/rxjs
+373 verbose addRemoteTarball https://registry.npmjs.org/rxjs/-/rxjs-5.0.0-beta.2.tgz not in flight; adding
+374 verbose addRemoteTarball [ 'https://registry.npmjs.org/rxjs/-/rxjs-5.0.0-beta.2.tgz',
+374 verbose addRemoteTarball   'f775df8b8598c0657031e5ff8ff8251e1c5c0185' ]
+375 info retry fetch attempt 1 at 11:29:39 AM
+376 info attempt registry request try #1 at 11:29:39 AM
+377 http fetch GET https://registry.npmjs.org/rxjs/-/rxjs-5.0.0-beta.2.tgz
+378 http fetch 200 https://registry.npmjs.org/del/-/del-2.2.0.tgz
+379 silly fetchAndShaCheck shasum 9a50f04bf37325e283b4f44e985336c252456bd5
+380 verbose addTmpTarball C:\Users\faizan\AppData\Local\Temp\npm-7792-c1798062\registry.npmjs.org\del\-\del-2.2.0.tgz not in flight; adding
+381 verbose addTmpTarball already have metadata; skipping unpack for del@2.2.0
+382 silly cache afterAdd del@2.2.0
+383 verbose afterAdd C:\Users\faizan\AppData\Roaming\npm-cache\del\2.2.0\package\package.json not in flight; writing
+384 verbose afterAdd C:\Users\faizan\AppData\Roaming\npm-cache\del\2.2.0\package\package.json written
+385 http 200 https://registry.npmjs.org/gulp-watch
+386 silly get cb [ 200,
+386 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+386 silly get     etag: '"5EGI3UA7B2MOC4MR1IWVPRD38"',
+386 silly get     'content-type': 'application/json',
+386 silly get     'cache-control': 'max-age=300',
+386 silly get     'content-length': '116987',
+386 silly get     'accept-ranges': 'bytes',
+386 silly get     date: 'Tue, 10 May 2016 06:29:37 GMT',
+386 silly get     via: '1.1 varnish',
+386 silly get     age: '233',
+386 silly get     connection: 'keep-alive',
+386 silly get     'x-served-by': 'cache-lcy1122-LCY',
+386 silly get     'x-cache': 'HIT',
+386 silly get     'x-cache-hits': '2',
+386 silly get     'x-timer': 'S1462861777.516218,VS0,VE0',
+386 silly get     vary: 'Accept-Encoding' } ]
+387 verbose get saving gulp-watch to C:\Users\faizan\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-watch\.cache.json
+388 http fetch 200 https://registry.npmjs.org/run-sequence/-/run-sequence-1.1.5.tgz
+389 silly fetchAndShaCheck shasum 556bd47eb47877349e36c9c582748897db7be4f7
+390 verbose addTmpTarball C:\Users\faizan\AppData\Local\Temp\npm-7792-c1798062\registry.npmjs.org\run-sequence\-\run-sequence-1.1.5.tgz not in flight; adding
+391 verbose addTmpTarball already have metadata; skipping unpack for run-sequence@1.1.5
+392 silly mapToRegistry name gulp-watch
+393 silly mapToRegistry using default registry
+394 silly mapToRegistry registry https://registry.npmjs.org/
+395 silly mapToRegistry uri https://registry.npmjs.org/gulp-watch
+396 verbose addRemoteTarball https://registry.npmjs.org/gulp-watch/-/gulp-watch-4.3.5.tgz not in flight; adding
+397 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-watch/-/gulp-watch-4.3.5.tgz',
+397 verbose addRemoteTarball   '3a94584d653f5c7f1aadd8d7791174b5fab048af' ]
+398 silly cache afterAdd run-sequence@1.1.5
+399 verbose afterAdd C:\Users\faizan\AppData\Roaming\npm-cache\run-sequence\1.1.5\package\package.json not in flight; writing
+400 info retry fetch attempt 1 at 11:29:44 AM
+401 info attempt registry request try #1 at 11:29:44 AM
+402 http fetch GET https://registry.npmjs.org/gulp-watch/-/gulp-watch-4.3.5.tgz
+403 verbose afterAdd C:\Users\faizan\AppData\Roaming\npm-cache\run-sequence\1.1.5\package\package.json written
+404 http fetch 200 https://registry.npmjs.org/ionic-angular/-/ionic-angular-2.0.0-beta.6.tgz
+405 http fetch 200 https://registry.npmjs.org/rxjs/-/rxjs-5.0.0-beta.2.tgz
+406 http fetch 200 https://registry.npmjs.org/ionicons/-/ionicons-3.0.0.tgz
+407 http fetch 200 https://registry.npmjs.org/ionic-native/-/ionic-native-1.2.0.tgz
+408 http fetch 200 https://registry.npmjs.org/gulp-watch/-/gulp-watch-4.3.5.tgz
+409 silly fetchAndShaCheck shasum 3a94584d653f5c7f1aadd8d7791174b5fab048af
+410 verbose addTmpTarball C:\Users\faizan\AppData\Local\Temp\npm-7792-c1798062\registry.npmjs.org\gulp-watch\-\gulp-watch-4.3.5.tgz not in flight; adding
+411 verbose addTmpTarball already have metadata; skipping unpack for gulp-watch@4.3.5
+412 silly cache afterAdd gulp-watch@4.3.5
+413 verbose afterAdd C:\Users\faizan\AppData\Roaming\npm-cache\gulp-watch\4.3.5\package\package.json not in flight; writing
+414 verbose afterAdd C:\Users\faizan\AppData\Roaming\npm-cache\gulp-watch\4.3.5\package\package.json written
+415 http 200 https://registry.npmjs.org/angular2
+416 silly get cb [ 200,
+416 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+416 silly get     etag: '"BCX1KL3KA9VLZMLE575S4BP5G"',
+416 silly get     'content-type': 'application/json',
+416 silly get     'cache-control': 'max-age=300',
+416 silly get     'content-length': '106589',
+416 silly get     'accept-ranges': 'bytes',
+416 silly get     date: 'Tue, 10 May 2016 06:29:37 GMT',
+416 silly get     via: '1.1 varnish',
+416 silly get     age: '0',
+416 silly get     connection: 'keep-alive',
+416 silly get     'x-served-by': 'cache-lcy1120-LCY',
+416 silly get     'x-cache': 'HIT',
+416 silly get     'x-cache-hits': '1',
+416 silly get     'x-timer': 'S1462861777.514145,VS0,VE346',
+416 silly get     vary: 'Accept-Encoding' } ]
+417 verbose get saving angular2 to C:\Users\faizan\AppData\Roaming\npm-cache\registry.npmjs.org\angular2\.cache.json
+418 silly mapToRegistry name angular2
+419 silly mapToRegistry using default registry
+420 silly mapToRegistry registry https://registry.npmjs.org/
+421 silly mapToRegistry uri https://registry.npmjs.org/angular2
+422 verbose addRemoteTarball https://registry.npmjs.org/angular2/-/angular2-2.0.0-beta.15.tgz not in flight; adding
+423 verbose addRemoteTarball [ 'https://registry.npmjs.org/angular2/-/angular2-2.0.0-beta.15.tgz',
+423 verbose addRemoteTarball   'd5952c8bc021f75877ed2db36a10d408d4674027' ]
+424 info retry fetch attempt 1 at 11:30:01 AM
+425 info attempt registry request try #1 at 11:30:01 AM
+426 http fetch GET https://registry.npmjs.org/angular2/-/angular2-2.0.0-beta.15.tgz
+427 http 200 https://registry.npmjs.org/gulp
+428 silly get cb [ 200,
+428 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+428 silly get     etag: '"EZ26NY4DYLZBC1510NYCMIFEB"',
+428 silly get     'content-type': 'application/json',
+428 silly get     'cache-control': 'max-age=300',
+428 silly get     'content-length': '114043',
+428 silly get     'accept-ranges': 'bytes',
+428 silly get     date: 'Tue, 10 May 2016 06:29:40 GMT',
+428 silly get     via: '1.1 varnish',
+428 silly get     age: '108',
+428 silly get     connection: 'keep-alive',
+428 silly get     'x-served-by': 'cache-lcy1121-LCY',
+428 silly get     'x-cache': 'HIT',
+428 silly get     'x-cache-hits': '3',
+428 silly get     'x-timer': 'S1462861780.965275,VS0,VE0',
+428 silly get     vary: 'Accept-Encoding' } ]
+429 verbose get saving gulp to C:\Users\faizan\AppData\Roaming\npm-cache\registry.npmjs.org\gulp\.cache.json
+430 silly mapToRegistry name gulp
+431 silly mapToRegistry using default registry
+432 silly mapToRegistry registry https://registry.npmjs.org/
+433 silly mapToRegistry uri https://registry.npmjs.org/gulp
+434 verbose addRemoteTarball https://registry.npmjs.org/gulp/-/gulp-3.9.1.tgz not in flight; adding
+435 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp/-/gulp-3.9.1.tgz',
+435 verbose addRemoteTarball   '571ce45928dd40af6514fc4011866016c13845b4' ]
+436 info retry fetch attempt 1 at 11:30:02 AM
+437 info attempt registry request try #1 at 11:30:02 AM
+438 http fetch GET https://registry.npmjs.org/gulp/-/gulp-3.9.1.tgz
+439 http 200 https://registry.npmjs.org/es6-shim
+440 silly get cb [ 200,
+440 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+440 silly get     etag: '"EH5WMZZJWYJFAD2EJG6PIP3XE"',
+440 silly get     'content-type': 'application/json',
+440 silly get     'cache-control': 'max-age=300',
+440 silly get     'content-length': '202017',
+440 silly get     'accept-ranges': 'bytes',
+440 silly get     date: 'Tue, 10 May 2016 06:29:37 GMT',
+440 silly get     via: '1.1 varnish',
+440 silly get     age: '288',
+440 silly get     connection: 'keep-alive',
+440 silly get     'x-served-by': 'cache-lcy1122-LCY',
+440 silly get     'x-cache': 'HIT',
+440 silly get     'x-cache-hits': '1',
+440 silly get     'x-timer': 'S1462861777.514205,VS0,VE0',
+440 silly get     vary: 'Accept-Encoding' } ]
+441 verbose get saving es6-shim to C:\Users\faizan\AppData\Roaming\npm-cache\registry.npmjs.org\es6-shim\.cache.json
+442 silly addNameRange number 2 { name: 'es6-shim', range: '>=0.35.0 <0.36.0', hasData: true }
+443 silly addNameRange versions [ 'es6-shim',
+443 silly addNameRange   [ '0.1.0',
+443 silly addNameRange     '0.2.0',
+443 silly addNameRange     '0.2.1',
+443 silly addNameRange     '0.3.0',
+443 silly addNameRange     '0.3.1',
+443 silly addNameRange     '0.4.0',
+443 silly addNameRange     '0.4.1',
+443 silly addNameRange     '0.5.0',
+443 silly addNameRange     '0.5.1',
+443 silly addNameRange     '0.5.2',
+443 silly addNameRange     '0.5.3',
+443 silly addNameRange     '0.6.0',
+443 silly addNameRange     '0.7.0',
+443 silly addNameRange     '0.8.0',
+443 silly addNameRange     '0.9.0',
+443 silly addNameRange     '0.9.1',
+443 silly addNameRange     '0.9.2',
+443 silly addNameRange     '0.9.3',
+443 silly addNameRange     '0.10.0',
+443 silly addNameRange     '0.10.1',
+443 silly addNameRange     '0.11.0',
+443 silly addNameRange     '0.11.1',
+443 silly addNameRange     '0.12.0',
+443 silly addNameRange     '0.13.0',
+443 silly addNameRange     '0.14.0',
+443 silly addNameRange     '0.15.0',
+443 silly addNameRange     '0.15.1',
+443 silly addNameRange     '0.16.0',
+443 silly addNameRange     '0.17.0',
+443 silly addNameRange     '0.18.0',
+443 silly addNameRange     '0.19.0',
+443 silly addNameRange     '0.19.1',
+443 silly addNameRange     '0.19.2',
+443 silly addNameRange     '0.20.0',
+443 silly addNameRange     '0.20.1',
+443 silly addNameRange     '0.20.2',
+443 silly addNameRange     '0.20.3',
+443 silly addNameRange     '0.20.4',
+443 silly addNameRange     '0.21.0',
+443 silly addNameRange     '0.21.1',
+443 silly addNameRange     '0.22.0',
+443 silly addNameRange     '0.22.1',
+443 silly addNameRange     '0.22.2',
+443 silly addNameRange     '0.23.0',
+443 silly addNameRange     '0.24.0',
+443 silly addNameRange     '0.25.0',
+443 silly addNameRange     '0.25.1',
+443 silly addNameRange     '0.25.2',
+443 silly addNameRange     '0.25.3',
+443 silly addNameRange     '0.26.0',
+443 silly addNameRange     '0.26.1',
+443 silly addNameRange     '0.27.1',
+443 silly addNameRange     '0.28.1',
+443 silly addNameRange     '0.29.0',
+443 silly addNameRange     '0.30.0',
+443 silly addNameRange     '0.31.0',
+443 silly addNameRange     '0.31.1',
+443 silly addNameRange     '0.31.2',
+443 silly addNameRange     '0.31.3',
+443 silly addNameRange     '0.32.0',
+443 silly addNameRange     '0.32.1',
+443 silly addNameRange     '0.32.2',
+443 silly addNameRange     '0.33.0',
+443 silly addNameRange     '0.33.1',
+443 silly addNameRange     '0.33.2',
+443 silly addNameRange     '0.33.3',
+443 silly addNameRange     '0.33.4',
+443 silly addNameRange     '0.33.5',
+443 silly addNameRange     '0.33.6',
+443 silly addNameRange     '0.33.7',
+443 silly addNameRange     '0.33.8',
+443 silly addNameRange     '0.33.9',
+443 silly addNameRange     '0.33.10',
+443 silly addNameRange     '0.33.11',
+443 silly addNameRange     '0.33.12',
+443 silly addNameRange     '0.33.13',
+443 silly addNameRange     '0.34.0',
+443 silly addNameRange     '0.34.1',
+443 silly addNameRange     '0.34.2',
+443 silly addNameRange     '0.34.3',
+443 silly addNameRange     '0.34.4',
+443 silly addNameRange     '0.35.0' ] ]
+444 silly addNamed es6-shim@0.35.0
+445 verbose addNamed "0.35.0" is a plain semver version for es6-shim
+446 silly cache afterAdd es6-shim@0.35.0
+447 verbose afterAdd C:\Users\faizan\AppData\Roaming\npm-cache\es6-shim\0.35.0\package\package.json not in flight; writing
+448 verbose afterAdd C:\Users\faizan\AppData\Roaming\npm-cache\es6-shim\0.35.0\package\package.json written
+449 silly fetchAndShaCheck shasum 3d01c8ebe530a559533adef59e08e17c7311affd
+450 verbose addTmpTarball C:\Users\faizan\AppData\Local\Temp\npm-7792-c1798062\registry.npmjs.org\ionic-native\-\ionic-native-1.2.0.tgz not in flight; adding
+451 verbose addTmpTarball already have metadata; skipping unpack for ionic-native@1.2.0
+452 silly cache afterAdd ionic-native@1.2.0
+453 verbose afterAdd C:\Users\faizan\AppData\Roaming\npm-cache\ionic-native\1.2.0\package\package.json not in flight; writing
+454 verbose afterAdd C:\Users\faizan\AppData\Roaming\npm-cache\ionic-native\1.2.0\package\package.json written
+455 http fetch 200 https://registry.npmjs.org/gulp/-/gulp-3.9.1.tgz
+456 silly fetchAndShaCheck shasum 571ce45928dd40af6514fc4011866016c13845b4
+457 verbose addTmpTarball C:\Users\faizan\AppData\Local\Temp\npm-7792-c1798062\registry.npmjs.org\gulp\-\gulp-3.9.1.tgz not in flight; adding
+458 verbose addTmpTarball already have metadata; skipping unpack for gulp@3.9.1
+459 silly cache afterAdd gulp@3.9.1
+460 verbose afterAdd C:\Users\faizan\AppData\Roaming\npm-cache\gulp\3.9.1\package\package.json not in flight; writing
+461 verbose afterAdd C:\Users\faizan\AppData\Roaming\npm-cache\gulp\3.9.1\package\package.json written
+462 http fetch 200 https://registry.npmjs.org/angular2/-/angular2-2.0.0-beta.15.tgz
+463 silly fetchAndShaCheck shasum f775df8b8598c0657031e5ff8ff8251e1c5c0185
+464 verbose addTmpTarball C:\Users\faizan\AppData\Local\Temp\npm-7792-c1798062\registry.npmjs.org\rxjs\-\rxjs-5.0.0-beta.2.tgz not in flight; adding
+465 verbose addTmpTarball already have metadata; skipping unpack for rxjs@5.0.0-beta.2
+466 silly cache afterAdd rxjs@5.0.0-beta.2
+467 verbose afterAdd C:\Users\faizan\AppData\Roaming\npm-cache\rxjs\5.0.0-beta.2\package\package.json not in flight; writing
+468 verbose afterAdd C:\Users\faizan\AppData\Roaming\npm-cache\rxjs\5.0.0-beta.2\package\package.json written
+469 verbose stack Error: read ECONNRESET
+469 verbose stack     at exports._errnoException (util.js:746:11)
+469 verbose stack     at TCP.onread (net.js:559:26)
+470 verbose cwd E:\Rental-app\rental-app
+471 error Windows_NT 6.1.7601
+472 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+473 error node v0.12.3
+474 error npm  v2.9.1
+475 error code ECONNRESET
+476 error errno ECONNRESET
+477 error syscall read
+478 error network read ECONNRESET
+478 error network This is most likely not a problem with npm itself
+478 error network and is related to network connectivity.
+478 error network In most cases you are behind a proxy or have bad network settings.
+478 error network
+478 error network If you are behind a proxy, please make sure that the
+478 error network 'proxy' config is set properly.  See: 'npm help config'
+479 verbose exit [ 1, true ]
