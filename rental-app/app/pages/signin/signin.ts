@@ -2,9 +2,9 @@ import {Page, MenuController, NavController} from 'ionic-angular';
 import {UserPage} from './../user/user';
 
 @Page({
-  templateUrl: 'build/pages/home/home.html'
+  templateUrl: 'build/pages/signin/signin.html'
 })
-export class HomePage {
+export class SigninPage {
     nav: any;
   constructor(public menu: MenuController, nav: NavController) {
         this.nav = nav;
@@ -14,9 +14,5 @@ export class HomePage {
    this.menu.open();
  }
   
-  user(){
-    //   alert('hello');
-      this.nav.push(UserPage);
-      
-  }
+ 
 }

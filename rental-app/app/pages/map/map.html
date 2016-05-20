@@ -1,0 +1,54 @@
+
+<ion-navbar *navbar>
+
+            <ion-row  class="main-menu">
+        <ion-col width-20>
+            <button full clear large>
+                <ion-icon name="home" yellow></ion-icon>
+            </button>
+        </ion-col>
+        <ion-col width-20>
+            <button full clear large>
+                <ion-icon name="md-add-circle" yellow></ion-icon>
+            </button>
+        </ion-col>
+        <ion-col width-20>
+            <button full clear large>
+                <ion-icon name="md-search" yellow></ion-icon>
+            </button>
+        </ion-col>
+        <ion-col width-20>
+            <button full clear large>
+                <ion-icon name="md-menu" yellow></ion-icon>
+            </button>
+        </ion-col>
+        <ion-col width-20>
+            <button full clear large>
+                <ion-icon name="md-person-add" yellow></ion-icon>
+            </button>
+        </ion-col>
+        
+</ion-row>
+   
+</ion-navbar>
+
+
+
+<ion-content class="home">
+    
+ <ion-buttons end>
+    <button (click)="location()"><ion-icon name="add"></ion-icon>Location</button>
+  </ion-buttons>  
+   <div id="map_canvas"></div>
+   
+    <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map_canvas'), {
+          center: {lat: -34.397, lng: 150.644},
+          zoom: 8
+        });
+      }
+    </script>
+
+</ion-content>

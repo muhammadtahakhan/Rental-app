@@ -2,7 +2,7 @@ import {Page, MenuController, NavController} from 'ionic-angular';
 import {UserPage} from './../user/user';
 
 @Page({
-  templateUrl: 'build/pages/home/home.html'
+  templateUrl: 'build/pages/signup/signup.html'
 })
 export class HomePage {
     nav: any;

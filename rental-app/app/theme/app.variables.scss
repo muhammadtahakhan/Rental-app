@@ -31,13 +31,15 @@ $colors: (
   danger:     #f53d3d,
   light:      #f4f4f4,
   dark:       #222,
-  favorite:   #69BB7B
+  favorite:   #69BB7B,
+  yellow: #f2b632,
 );
 
 $text-color: #ffffff;
-
+$background-color:#252839;
 $background-md-color: #252839;
 $background-md-title-color: #b5b5b7;
 $toolbar-md-background: #677077;
 $card-md-background-color: #b5b5b7;
 $toolbar-md-text-color: #f2b632;
+$action-sheet-md-button-background: #f2b632;
