@@ -3,7 +3,7 @@
 var express = require('express');
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
-// var apiRoutes = require('./routes/api');
+var apiRoute = require('./routes/api');
 var jwt    = require('jsonwebtoken'); // used to create, sign, and verify tokens
 // var config = require('./config'); // get our config file
 // var User   = require('./models/user'); // get our mongoose model
@@ -28,10 +28,10 @@ app.use(cors());
 
 
 // parse application/x-www-form-urlencoded 
-app.use(bodyParser.urlencoded({ extended: false }))
+app.use(bodyParser.urlencoded({ extended: false }));
  
 // parse application/json 
-app.use(bodyParser.json())
+app.use(bodyParser.json());
 
 
 
@@ -40,7 +40,8 @@ app.get('/', function(req, res) {
     res.send('Hello! The API at: http://localhost:'+port+'/api');
 });
 
-
+// route for API
+app.use('/api', apiRoute);
 
 
 
