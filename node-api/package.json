@@ -19,7 +19,7 @@
     "node-restful": "^0.2.5"
   },
   "devDependencies": {
-    "gulp": "^3.9.0",
+    "gulp": "^3.9.1",
     "gulp-nodemon": "^2.0.3",
     "gulp-rimraf": "^0.1.1",
     "gulp-typescript": "^2.8.1",

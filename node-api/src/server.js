@@ -14,7 +14,7 @@ mongoose.connect('mongodb://localhost:27017/rest_test', function (err) {
         console.log('connection error', err);
     }
     else {
-        console.log('connection successful');
+        console.log('MongoDb connected successful');
     }
 });
 //Express
@@ -24,7 +24,7 @@ app.use(cors());
 // parse application/x-www-form-urlencoded 
 app.use(bodyParser.urlencoded({ extended: false }));
 // parse application/json 
-app.use(bodyParser.json());
+// app.use(bodyParser.json());
 // basic route
 app.get('/', function (req, res) {
     res.send('Hello! The API at: http://localhost:' + port + '/api');
