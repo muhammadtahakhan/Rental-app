@@ -1,0 +1,17 @@
+.home {
+  
+}
+
+
+img { 
+    display: block; 
+    max-width: 100%; 
+    border-radius: 50%;
+    filter: grayscale(100%);
+    border: solid 5px #f2b632;
+    transition: .15s;
+    &:hover,
+    &:active {
+      filter: grayscale(0);
+    }
+}

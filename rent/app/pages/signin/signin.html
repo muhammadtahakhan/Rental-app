@@ -1,0 +1,53 @@
+<ion-navbar *navbar>
+
+            <ion-row  class="main-menu">
+            <ion-col width-20>
+                <button full clear large>
+                    <ion-icon name="home" yellow></ion-icon>
+                </button>
+            </ion-col>
+            <ion-col width-20>
+                <button full clear large>
+                    <ion-icon name="md-add-circle" yellow></ion-icon>
+                </button>
+            </ion-col>
+            <ion-col width-20>
+                <button full clear large>
+                    <ion-icon name="md-search" yellow></ion-icon>
+                </button>
+            </ion-col>
+            <ion-col width-20>
+                <button full clear large>
+                    <ion-icon name="md-menu" yellow></ion-icon>
+                </button>
+            </ion-col>
+            <ion-col width-20>
+                <button full clear large >
+                    <ion-icon name="md-person-add"  yellow></ion-icon>
+                </button>
+            </ion-col>
+            
+</ion-row>
+   
+</ion-navbar>
+
+<ion-content class="home">
+   
+   
+   <form [ngFormModel]="authForm" (ngSubmit)="onSubmit(authForm.value)">
+    <ion-item [class.error]="!username.valid && username.touched" yellow>
+        <ion-label floating yellow>Username</ion-label>
+        <ion-input type="text" value="" [ngFormControl]="username" yellow></ion-input>  
+        <div *ngIf="username.hasError('required') && username.touched" 
+            class="error-box" danger>* Username is required!</div>       
+    </ion-item>                     
+    <ion-item [class.error]="!password.valid && password.touched" yellow>
+        <ion-label floating yellow>Password</ion-label>
+        <ion-input type="text" value="" [ngFormControl]="password" yellow></ion-input>
+    </ion-item>             
+    <br/><br/> 
+    <button type="submit" class="custom-button" [disabled]="!authForm.valid" block yellow>Submit</button>
+</form>
+   
+  
+</ion-content>
