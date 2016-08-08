@@ -39,7 +39,9 @@ apiRoute.use((req, res, next)=> {
 
 //   console.log('User saved successfully!');
 // });
+    console.log("recived req");
      res.send('Hello! The API at');
+
 });
 
 

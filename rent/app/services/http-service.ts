@@ -1,13 +1,13 @@
-import {Injectable} from 'angular2/core';
+import { Injectable } from '@angular/core';
 // import {SERVER_URL} from './config';
 
-import {Http, Headers, RequestOptions} from 'angular2/http';
+import {Http, Headers, RequestOptions} from '@angular/http';
 import {Observable} from 'rxjs/Observable';
 import 'rxjs/Rx';
 
 import {Page, Alert, NavController, Storage, LocalStorage} from 'ionic-angular';
 
-import {Inject} from 'angular2/core';
+import {Inject} from '@angular/core';
 
 
 @Injectable()

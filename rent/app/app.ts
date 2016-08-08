@@ -5,6 +5,7 @@ import {TabsPage} from './pages/tabs/tabs';
 import {HomePage} from './pages/home/home';
 import {MapPage} from './pages/map/map';
 import {StartPage} from './pages/start/start'
+import {TestService} from './services/test-service';
 
 
 @Component({
@@ -26,4 +27,4 @@ export class MyApp {
   }
 }
 
-ionicBootstrap(MyApp)
+ionicBootstrap(MyApp, [TestService])

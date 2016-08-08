@@ -28,6 +28,7 @@ apiRoute.use(function (req, res, next) {
     //   if (err) throw err;
     //   console.log('User saved successfully!');
     // });
+    console.log("recived req");
     res.send('Hello! The API at');
 });
 module.exports = apiRoute;
